@@ -7,7 +7,10 @@
 .container > .row {
   width: 1000px;
   margin-left: calc(50% - 500px);
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px 0;
+  flex-wrap: wrap;
 }
 
 .container > .short-row {
@@ -44,6 +47,10 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+  /* .container > .row {
+    flex-direction: column;
+  } */
+
   .container > .row,
   .container > .short-row {
     width: 100%;
@@ -51,7 +58,6 @@
   }
   .container > .row > .column {
     width: 100%;
-    margin-bottom: 60px;
   }
 
   .container > .row > .column {
