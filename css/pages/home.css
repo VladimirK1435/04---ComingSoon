@@ -35,6 +35,39 @@
   text-decoration: underline;
 }
 
+footer.container {
+  padding-top: 0;
+}
+
+.row.socials {
+  justify-content: center;
+  font-size: 20px;
+  gap: 1em0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 2em;
+}
+
+.socials > a {
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.75s;
+}
+
+.socials > a:hover {
+  background-color: #fff;
+  color: var(--main-color);
+}
+
+.botton {
+}
+
 @media (max-width: 700px) {
   .main-title {
     font-size: 60px;
