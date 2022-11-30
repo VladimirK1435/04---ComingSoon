@@ -22,7 +22,7 @@
 }
 
 .container > .row > .right {
-  width: 50%;
+  width: 40%;
 }
 
 @media (max-width: 1100px) {
