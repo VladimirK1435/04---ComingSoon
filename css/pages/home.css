@@ -65,7 +65,25 @@ footer.container {
   color: var(--main-color);
 }
 
-.botton {
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fffc;
+}
+
+.bottom > .logo-white {
+  margin-bottom: 40px;
+}
+
+.bottom > .trio {
+  display: flex;
+  gap: 20px;
+}
+
+.bottom a {
+  color: #fff;
 }
 
 @media (max-width: 700px) {
