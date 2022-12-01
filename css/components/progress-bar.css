@@ -1,3 +1,9 @@
+/* :root {
+  --bar-1: 90%;
+  --bar-2: 80%;
+  --bar-3: 50%;
+} */
+
 .progress-bar-list {
   display: flex;
   flex-direction: column;
@@ -22,17 +28,6 @@
 }
 .progress-bar-list .progress > .bar {
   height: 100%;
-  background-color: var(--main-color);
-}
-.progress-bar-list .progress > .bar-1 {
   width: 90%;
-}
-.progress-bar-list .progress > .bar-2 {
-  width: 80%;
-}
-.progress-bar-list .progress > .bar-3 {
-  width: 50%;
-}
-.progress-bar-list .progress > .bar-4 {
-  width: 10%;
+  background-color: var(--main-color);
 }
