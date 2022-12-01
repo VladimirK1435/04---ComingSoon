@@ -82,6 +82,25 @@ footer.container {
   gap: 0 20px;
 }
 
+.bottom > .trio > p {
+  position: relative;
+}
+
+.bottom > .trio > p + p::before {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 16px;
+  background-color: #fff;
+  position: absolute;
+  top: 1;
+  left: -11;
+}
+
+/* .bottom > .trio > p:last-child:after {
+content:'';
+} */
+
 .bottom a {
   color: #fff;
 }
