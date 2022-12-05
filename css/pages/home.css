@@ -115,4 +115,9 @@ content:'';
   .bottom>.trio {
     flex-direction: column;
   }
+
+  .bottom>.trio>p+p::before {
+    display: inline-block;
+  }
+
 }
