@@ -3,17 +3,7 @@
   padding: 60px 0;
 }
 
-.container.hero {
-  background-color: red;
-  background-image: url(../../pic/background.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  min-height: 100vh;
-  background-attachment: fixed;
-}
-
-.container.hero>.row {
+.container>.row {
   --w: 1000px;
   display: flex;
   justify-content: space-between;
