@@ -1,6 +1,6 @@
 .container.hero {
   min-height: 100vh;
-  background-color: red;
+  /* background-color: red; */
   background-image: url(../../pic/background.png);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -45,6 +45,26 @@
 
 .section-description>a:hover {
   text-decoration: underline;
+}
+
+form>label {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+form>.subscribe {
+  width: 530px;
+  padding: 0.5em 0.1em;
+  font-size: 18px;
+  line-height: 1.2em;
+  border: none;
+  margin: 25px;
 }
 
 footer.container {

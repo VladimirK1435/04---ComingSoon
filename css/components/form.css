@@ -24,6 +24,7 @@ form>div>label {
 
 form>div>input,
 form>div>textarea {
+  background: transparent;
   width: 100%;
   padding: 0.5em 0.1em;
   font-size: 18px;
