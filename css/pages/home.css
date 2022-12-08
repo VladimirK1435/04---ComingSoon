@@ -1,6 +1,6 @@
 .container.hero {
   min-height: 100vh;
-  background-color: red;
+  /* background-color: red; */
   background-image: url(../../pic/background.png);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -41,10 +41,22 @@
 .section-description>a {
   text-decoration: none;
   color: var(--secondary-color);
+  ить пиво.</h2><br><h3>Будем петь песни. </h><br><h6>И немного пошалим </h6><hr size="3",
+  noshade></center>
 }
 
 .section-description>a:hover {
   text-decoration: underline;
+}
+
+form>label {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 footer.container {
