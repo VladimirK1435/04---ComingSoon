@@ -41,6 +41,8 @@
 .section-description>a {
   text-decoration: none;
   color: var(--secondary-color);
+  ить пиво.</h2><br><h3>Будем петь песни. </h><br><h6>И немного пошалим </h6><hr size="3",
+  noshade></center>
 }
 
 .section-description>a:hover {
@@ -55,16 +57,6 @@ form {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-
-form>.subscribe {
-  width: 530px;
-  padding: 0.5em 0.1em;
-  font-size: 18px;
-  line-height: 1.2em;
-  border: none;
-  margin: 25px;
 }
 
 footer.container {

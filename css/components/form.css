@@ -33,6 +33,19 @@ form>div>textarea {
   border-bottom: 2px solid #ccc;
 }
 
+form>.subscribe>input {
+  border-bottom-color: #fff;
+  width: 100%;
+  width: 530px;
+  margin: 25px;
+
+}
+
+.subscribe>#email::placeholder {
+  color: #fff;
+
+}
+
 form>div>textarea {
   min-height: 4.8em;
   max-height: 13em;

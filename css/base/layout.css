@@ -56,4 +56,8 @@
   .container>.row>.column {
     width: 100%;
   }
+
+  form>.subscribe>input {
+    width: 100%;
+  }
 }
